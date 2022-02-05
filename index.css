@@ -19,8 +19,8 @@ body {
 }
 .container {
   background-color: white;
-  max-width: 500px;
-  height: 84%;
+  width: 500px;
+  height: 90%;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -59,10 +59,7 @@ button {
   padding: 10px;
   border-radius: 10px;
   border: none;
-  margin-top: 20px;
   background-color: rgb(30, 120, 255);
-  background-size: 600% 600%;
-  animation: AnimationName 4s ease infinite;
   color: white;
   font-size: 18px;
   font-weight: 500;
@@ -77,8 +74,6 @@ button {
   border: none;
   margin-top: 0px;
   background-color: rgb(29, 29, 29);
-  background-size: 600% 600%;
-  animation: AnimationName 4s ease infinite;
   color: white;
   font-size: 14px;
   font-weight: 500;
@@ -88,7 +83,6 @@ button {
 .logindetails img {
   width: 40px;
   margin-right: 10px;
-  cursor: pointer;
 }
 #avatar {
   width: 150px;
